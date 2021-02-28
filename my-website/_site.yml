@@ -1,5 +1,5 @@
-name: "my-website"
-title: "My Website"
+name: "group8-website"
+title: "Group 8's COVID-19 Data"
 description: |
   My Website
 output_dir: "_site"
