@@ -1,0 +1,15 @@
+---
+title: "website 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+install.packages("distill")
+library(distill)
+create_website(dir = "my-website", title = "My Website")
+```
+
