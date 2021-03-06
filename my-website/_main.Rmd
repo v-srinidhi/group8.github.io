@@ -2,7 +2,7 @@
 title: "Group 8's COVID-19 Website"
 description: |
   This website showcases our final project about COVID-19 data. 
-site: distill::distill_website
+site: bookdown::bookdown_site
 output:
   html_document:
     theme: spacelab
@@ -19,4 +19,22 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ##### This is a test! Hello World!
+
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "About this site"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+<!--chapter:end:about.Rmd-->
 

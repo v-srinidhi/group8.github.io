@@ -1,12 +1,15 @@
 name: "group8-website"
-title: "Group 8's COVID-19 Data"
 description: |
-  My Website
-output_dir: "_site"
 navbar:
+  title: "Group 8's COVID-19 Data"
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    
+
